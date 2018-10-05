@@ -8,19 +8,46 @@ import "./App.css";
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
-    friends: [],
-    name: "",
+    arr: [],
+    friends: friends,
+    status: "",
     id: "",
     score: 0,
     topScore: 0
   };
-  handleInputChange = event => {
-    const { name, value } = event.target;
-    this.setState({
-      [name]: value
-    }); 
-  };
 
+friendJumbler = (event) => {
+
+  let id = (event.target.getAttribute("id"));
+  if (this.state.arr.includes(id)) {
+    
+    this.setState({
+      status: "Game Over",
+      score: 0,
+      arr: [] 
+    });
+    console.log("GameOver")
+    //game reset empty 
+    return
+
+  }
+  if(this.state.topScore < this.state.score) {
+    this.setState({
+      topScore: this.state.score,
+    });
+  
+  }
+  let newArr = this.state.arr;
+  newArr.push(id);
+  console.log(newArr);
+
+  let cards = this.state.friends.sort(function(a, b){return 0.5 - Math.random()}); 
+  this.setState({
+    score: this.state.score + 1,
+    arr: newArr,
+    friends: cards
+  });
+}
 
  // state at beginning should have both score and Top Score set to 0
 
@@ -45,7 +72,9 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Navbar>Clicky Game</Navbar>
+        <Navbar
+        topScore={this.state.topScore}
+        score={this.state.score}>Clicky Game</Navbar>
         {this.state.friends.map(friend => (
           <FriendCard
             // removeFriend={this.removeFriend}
@@ -53,10 +82,12 @@ class App extends Component {
             key={friend.id}
             name={friend.name}
             image={friend.image}
-            // onChange={this.handleInputChange}
+            click={this.friendJumbler}
             
           />
+
         ))}
+        
       </Wrapper>
     );
   }

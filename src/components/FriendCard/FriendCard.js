@@ -3,9 +3,9 @@ import "./FriendCard.css";
 //import "./FriendJumbler";
 
 const FriendCard = props => (
-  <div className="card">
+  <div className="card" onClick={props.click}>
     <div className="img-container">
-      <img alt={props.name} src={props.image} />
+      <img id={props.id} alt={props.name} src={props.image} />
     </div>
     <div className="content">
       <ul>
@@ -15,7 +15,7 @@ const FriendCard = props => (
         
       </ul>
     </div>
-    <span onClick={() => props.friendJumbler(props.id)}className="remove">𝘅</span>
+    
   </div>
 );
 
