@@ -1,6 +1,7 @@
 import React from "react";
 import "./FriendCard.css";
-import "./FriendJumbler";
+//import "./FriendJumbler";
+
 const FriendCard = props => (
   <div className="card">
     <div className="img-container">
@@ -11,15 +12,10 @@ const FriendCard = props => (
         <li>
           <strong>Name:</strong> {props.name}
         </li>
-        <li>
-          <strong>Occupation:</strong> {props.occupation}
-        </li>
-        <li>
-          <strong>Address:</strong> {props.location}
-        </li>
+        
       </ul>
     </div>
-    <span onClick={() => props.jumbleFriends(props.id)}className="remove">𝘅</span>
+    <span onClick={() => props.friendJumbler(props.id)}className="remove">𝘅</span>
   </div>
 );
 
