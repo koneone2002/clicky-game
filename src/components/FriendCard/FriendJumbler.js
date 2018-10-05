@@ -19,8 +19,8 @@ friendJumbler = id => {
 
      
     const { friends } = this.state;
-    const filteredFriends = friends.filter(friend => friend.id !== id);
-    this.setState({friends: filteredFriends});
+    const jumbledFriends = friends.filter(friend => friend.id !== id);
+    this.setState({friends: jumbledFriends});
 
   }
 
