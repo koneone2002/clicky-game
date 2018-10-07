@@ -5,11 +5,11 @@ import "./FriendCard.css";
 const FriendCard = props => (
   <div className="card" onClick={props.click}>
     <div className="img-container">
-      <img id={props.id} src={props.image} />
+      <img id={props.id} alt={props.name} src={props.image} />
     </div>
-    
-    
   </div>
+    
+ 
 );
 
 export default FriendCard;
