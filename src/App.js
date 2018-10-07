@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
+import OuterWrapper from "./components/OuterWrapper";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import friends from "./friends.json";
@@ -58,10 +59,12 @@ friendJumbler = (event) => {
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
-      <Wrapper>
+      <OuterWrapper>
+      
         <Navbar
         topScore={this.state.topScore}
         score={this.state.score}>Clicky Game</Navbar>
+        <Wrapper>
         {this.state.friends.map(friend => (
           <FriendCard
             id={friend.id}
@@ -73,8 +76,10 @@ friendJumbler = (event) => {
           />
           
         ))}
-        <Footer />
+        
       </Wrapper>
+      <Footer />
+      </OuterWrapper>
     );
   }
 }
