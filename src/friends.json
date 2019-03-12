@@ -1,84 +1,84 @@
 [
   {
     "id": 1,
-    "name": "SpongeBob",
+    "name": "Edna",
     "image": "https://static.comicvine.com/uploads/scale_small/11/111746/6555869-tapped_out_unlock_edna.png",
     "occupation": "Fry Cook",
     "location": "A Pineapple Under the Sea"
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
+    "name": "Apu",
     "image": "https://static.comicvine.com/uploads/scale_small/11/111746/6555845-apu_nahasapeemapetilon_-_shading.png",
     "occupation": "Restaurant Owner",
     "location": "A Giant Anchor"
   },
   {
     "id": 3,
-    "name": "Squidward",
+    "name": "Mr Burns",
     "image": "https://static.comicvine.com/uploads/scale_small/11/111746/6555819-mr._burns_unlock.png",
     "occupation": "Cashier",
     "location": "An Easter Island Head"
   },
   {
     "id": 4,
-    "name": "Dexter",
+    "name": "Ralph",
     "image": "https://static.comicvine.com/uploads/scale_small/11/111746/6555887-tapped_out_unlock_ralph.png",
     "occupation": "Boy Genius",
     "location": "A Secret Laboratory"
   },
   {
     "id": 5,
-    "name": "Courage",
+    "name": "Groundskeeper Willie",
     "image": "https://static.comicvine.com/uploads/scale_small/11/114183/5155058-groundskeeper_willie.png",
     "occupation": "A Cowardly Dog",
     "location": "Nowhere, Kansas"
   },
   {
     "id": 6,
-    "name": "Doug Funnie",
+    "name": "Sideshow Bob",
     "image": "https://static.comicvine.com/uploads/scale_small/11/111746/6555961-tapped_out_sideshow_bob_artwork.png",
     "occupation": "Student",
     "location": "Bluffington"
   },
   {
     "id": 7,
-    "name": "Bugs Bunny",
+    "name": "Homer Simpson",
     "image": "https://static.comicvine.com/uploads/scale_small/11/114183/5147870-homer_simpson_2006.png",
     "occupation": "Looney Toon",
     "location": "A Rabbit Burrow"
   },
   {
     "id": 8,
-    "name": "Johnny Bravo",
+    "name": "Ned Flanders",
     "image": "https://static.comicvine.com/uploads/scale_small/11/111746/6555829-nedart.png",
     "occupation": "Ladies Man",
     "location": "Aron City"
   },
   {
     "id": 9,
-    "name": "Tommy Pickles",
+    "name": "Krusty the Klown",
     "image": "https://static.comicvine.com/uploads/scale_small/11/111746/6555858-tapped_out_unlock_krusty.png",
     "occupation": "Adventurer",
     "location": "California"
   },
   {
     "id": 10,
-    "name": "Rocko",
+    "name": "Marge Simpson",
     "image": "https://static.comicvine.com/uploads/scale_small/11/114183/5147887-margesimpson.png",
     "occupation": "Cashier",
     "location": "O-Town, California"
   },
   {
     "id": 11,
-    "name": "Captain Planet",
+    "name": "Milhouse",
     "image": "https://static.comicvine.com/uploads/scale_small/11/111746/6555848-tapped_out_unlock_milhouse.png",
     "occupation": "Superhero",
     "location": "Earth"
   },
   {
     "id": 12,
-    "name": "Ickis",
+    "name": "Bart Simpson",
     "image": "https://static.comicvine.com/uploads/scale_small/11/114183/5147868-bart_simpson.png",
     "occupation": "Ahhhh! A Real Monster!",
     "location": "Under a City Dump"

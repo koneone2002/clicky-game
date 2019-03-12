@@ -62,8 +62,10 @@ friendJumbler = (event) => {
       <OuterWrapper>
       
         <Navbar
-        topScore={this.state.topScore}
-        score={this.state.score}>Clicky Game</Navbar>
+          topScore={this.state.topScore}
+          score={this.state.score}>
+          
+        </Navbar>
         <Wrapper>
         {this.state.friends.map(friend => (
           <FriendCard
@@ -71,8 +73,7 @@ friendJumbler = (event) => {
             key={friend.id}
             name={friend.name}
             image={friend.image}
-            click={this.friendJumbler}
-            
+            click={this.friendJumbler} 
           />
           
         ))}

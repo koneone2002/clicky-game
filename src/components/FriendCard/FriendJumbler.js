@@ -1,6 +1,6 @@
 import React from "react";
 
-friendJumbler = id => {
+const FriendJumbler = id => {
     const shuffle = (cards) => {
 
         let randomCards = [];

@@ -6,5 +6,15 @@
     font-size: 50px;
     font-family: 'Bowlby One', cursive;
     color: white;
+    background: linear-gradient(0deg, #6CADDC  10%, rgb(109, 230, 244) 100%);
     margin-bottom: 50px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+}
+
+h1 {
+    text-shadow: 0 6px 9px black;
+    font-size: 60px;
+}
+h2{
+    text-shadow: 0 3px 6px black;
 }
